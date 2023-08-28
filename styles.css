@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.buttons{
+    vertical-align: top;
+    min-height: 150px;
+    min-width: 150px;
+    padding: 15px 32px;
+    background-color: white;
+}
+.one{
+    border-width: 0px 2px 2px 0px;
+}
+.two{
+    border-width: 0px 2px 2px 2px;
+}
+.three{
+    border-width: 0px 0px 2px 2px;
+}
+.four{
+    border-width: 2px 2px 2px 0px;
+}
+.five{
+    border-width: 2px 2px 2px 2px;
+}
+.six{
+    border-width: 2px 0px 2px 2px;
+}
+.seven{
+    border-width: 2px 2px 0px 0px;
+}
+.eight{
+    border-width: 2px 2px 0px 2px;
+}
+.nine{
+    border-width: 2px 0px 0px 2px;
+}
+img{
+    max-width: 80px;
+    max-height: 80px;
+}
