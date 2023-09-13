@@ -153,7 +153,7 @@ function check_losing() {
     }
     if (cntmoves !== 9) {
         while (true) {
-            const random_Element = lrows[Math.floor(Math.random() * lrows.length)]; 
+            const random_Element = lrows[Math.floor(Math.random() * lrows.length)];
             if (random_Element.includes(0)) {
                 let c1 = lrows.indexOf(random_Element);
                 let c2 = random_Element.indexOf(0);
